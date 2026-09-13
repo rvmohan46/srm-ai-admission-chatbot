@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+.env
+*.db
+*.sqlite3
+
+# NLP model caches
+.cache/
+transformers_cache/
+huggingface_cache/
+model_cache/
+
+# NLTK data
+nltk_data/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+frontend/.env.production.local
+frontend/out/
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Docker
+*.env
